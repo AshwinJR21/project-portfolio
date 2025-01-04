@@ -1,8 +1,3 @@
-// Center the viewport on load
-window.addEventListener('load', () => {
-  window.scrollTo(scrollToButton(buttons[center]));
-});
-
 const buttons = {
   center: document.getElementById('center-button'),
   top: document.getElementById('top-button'),
@@ -11,6 +6,10 @@ const buttons = {
   right: document.getElementById('right-button'),
 };
 
+// Center the viewport on load
+window.addEventListener('load', () => {
+  window.scrollTo(scrollToButton(buttons[center]));
+});
 
 let activeButton = 'center'; // Start with the center button
 
