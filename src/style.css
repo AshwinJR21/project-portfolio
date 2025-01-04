@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #171717, #242424);
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 10px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #292929;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background: linear-gradient(to bottom, #292929, #000000);
+  z-index: -1;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 1), 0 5px 10px rgba(0, 0, 0, 0.4);
+}  */
+#container {
+  position: relative;
+  width: 200vw; /* Make the container larger than the viewport */
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overflow-button {
+  z-index: 1;
+  background-color: #6c757d;
+  color: white;
+}
+
+#center-button {
+  top: 75%;
+  left: 50%;
+
+}
+
+/* Positioning overflow buttons */
+#top-button {
+  top: 0%; /* Offset vertically */
+  left: 50%;
+}
+
+#bottom-button {
+  top: 150%; /* Offset vertically */
+  left: 50%;
+}
+
+#left-button {
+  left: 0%; /* Offset horizontally */
+  top: 75%;
+}
+
+#right-button {
+  left: 100%; /* Offset horizontally */
+  top: 75%;
+}
