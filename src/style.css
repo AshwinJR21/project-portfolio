@@ -70,8 +70,8 @@ button:active {
 }  */
 #container {
   position: relative;
-  width: 200vw; /* Make the container larger than the viewport */
-  height: 200vh;
+  width: 500vw; /* Make the container larger than the viewport */
+  height: 500vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,29 +83,102 @@ button:active {
   color: white;
 }
 
-#center-button {
-  top: 75%;
-  left: 50%;
-
+#s1-1-button{
+  top: 0px;
+  left: 1700px;
 }
 
-/* Positioning overflow buttons */
-#top-button {
-  top: 0%; /* Offset vertically */
-  left: 50%;
+#s1-2-button{
+  top: 0px;
+  left: 2900px;
 }
 
-#bottom-button {
-  top: 150%; /* Offset vertically */
-  left: 50%;
+#s1-3-button{
+  top: 500px;
+  left: 2300px;
 }
 
-#left-button {
-  left: 0%; /* Offset horizontally */
-  top: 75%;
+#s1-4-button{
+  top: 1000px;
+  left: 1700px;
 }
 
-#right-button {
-  left: 100%; /* Offset horizontally */
-  top: 75%;
+#s1-5-button{
+  top: 1000px;
+  left: 2900px;
+}
+
+#s1-button{
+  top: 1500px;
+  left: 2300px;
+}
+
+#abtme-button{
+  top: 2050px;
+  left: 2300px;
+}
+
+#s3-button{
+  top: 2050px;
+  left: 3100px;
+}
+
+#s2-1-button{
+  top: 2600px;
+  left: 0px;
+}
+
+#s2-2-button{
+  top: 1500px;
+  left: 0px;
+}
+
+#s2-3-button{
+  top: 2050px;
+  left: 500px;
+}
+
+#s2-4-button{
+  top: 2600px;
+  left: 1000px;
+}
+
+#s2-5-button{
+  top: 1500px;
+  left: 1000px;
+}
+
+#s2-button{
+  top: 2050px;
+  left: 1500px;
+}
+
+#s4-button{
+  top: 2600px;
+  left: 2300px;
+}
+
+#s3-1-button{
+  top: 2600px;
+  left: 3600px;
+}
+
+#s3-2-button{
+  top: 1500px;
+  left: 3600px;
+}
+
+#s3-3-button{
+  top: 2050px;
+  left: 4100px;
+}
+
+#s3-4-button{
+  top: 2600px;
+  left: 4600px;
+}
+
+#s3-5-button{
+  top: 1500px;
+  left: 4600px;
 }
